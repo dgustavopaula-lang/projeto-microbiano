@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "name": "Amostra de Intestino",
+    "organism": "Bacteroides fragilis",
+    "collectedAt": "2026-08-01",
+    "location": "Intestino",
+    "notes": "Amostra de controle inicial"
+  },
+  {
+    "id": "2",
+    "name": "Amostra de Solo",
+    "organism": "Streptomyces coelicolor",
+    "collectedAt": "2026-07-28",
+    "location": "Solo",
+    "notes": "Coleta ambiental"
+  }
+]

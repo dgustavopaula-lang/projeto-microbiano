@@ -1,0 +1,12 @@
+{
+  "name": "projeto-microbiano",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "cd backend && nodemon server.js"
+  },
+  "workspaces": [],
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "projeto-microbiano-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "serve ."
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
