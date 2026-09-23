@@ -1,1 +1,1 @@
-console.log("Projeto Microbioma iniciado com sucesso!");
+let promptInstall;const buttons=document.querySelectorAll("[data-install]");if("serviceWorker"in navigator)addEventListener("load",()=>navigator.serviceWorker.register("./service-worker.js"));addEventListener("beforeinstallprompt",e=>{e.preventDefault();promptInstall=e});buttons.forEach(b=>b.onclick=async()=>{if(!promptInstall){document.querySelector("#instalar").scrollIntoView({behavior:"smooth"});return}promptInstall.prompt();await promptInstall.userChoice;promptInstall=null});
